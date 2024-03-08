@@ -1,5 +1,5 @@
 //Importações Padrão
-import { View } from "react-native";
+import { View, Button } from "react-native";
 import styles from "../styles/StyleSheet";
 //Importações de Components
 import LoginBack from "../components/LoginImageBackground";
@@ -13,6 +13,7 @@ export default function App() {
     //My background
     <View style={styles.container}>
       <LoginBack />
+
     </View>
   );
 }

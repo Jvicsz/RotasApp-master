@@ -17,6 +17,10 @@ export default function LoginButton() {
           color= 'blue'
           onPress={pressButton}
         />
+        
+        <Button title="About" onPress={() => navigation.navigate("About")} color= 'blue' />
+      <Button title="Contact" onPress={() => navigation.navigate("Contact")} color= 'blue' />
+      <Button title="Home" onPress={() => navigation.navigate("Home")} color= 'blue' />
       </View>
     
   );

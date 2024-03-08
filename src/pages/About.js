@@ -1,5 +1,5 @@
 //Importações Padrão
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Button } from "react-native";
 import { styles } from "../styles/StyleSheet";
 //Importações React Navigation
 import { useNavigation } from "@react-navigation/native";
@@ -24,6 +24,9 @@ export default function About() {
                 </Text>
             </View>
             
+            <Button title="Home" onPress={() => navigation.navigate("Home")} color= 'blue' />
+      <Button title="Contact" onPress={() => navigation.navigate("Contact")} color= 'blue' />
+      <Button title="Login" onPress={() => navigation.navigate("Login")} color= 'blue' />
         </View>
       </View>
   
