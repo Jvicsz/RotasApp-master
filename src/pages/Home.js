@@ -10,17 +10,17 @@ export default function Home() {
   return (
     //Imagem de fundo
     <ImageBackground
-      source={require("../assets/images/fundo.jpg")}
+      source={require("../assets/images/fundo1.jpg")}
       style={styles.fundo}
     >
-
+<Button title="About" onPress={() => navigation.navigate("About")} color= 'blue' />
+      <Button title="Contact" onPress={() => navigation.navigate("Contact")} color= 'blue' />
+      <Button title="Login" onPress={() => navigation.navigate("Login")} color= 'blue' />
       <View style={styles.container}>
         <Text style={styles.hey}>Cachorro Feliz</Text>
       </View>
 
-      <Button title="About" onPress={() => navigation.navigate("About")} color= 'black' />
-      <Button title="Contact" onPress={() => navigation.navigate("Contact")} color= 'black' />
-      <Button title="Login" onPress={() => navigation.navigate("Login")} color= 'black' />
+      
     </ImageBackground>
   );
 }

@@ -15,17 +15,17 @@ export default function Contact() {
         <View style={styles.corpo}>
 
         <TextInput 
-          placeholder='Nome'
+          placeholder='USER'
           style={styles.inputs}
           inputMode='text'
         />
         <TextInput 
-          placeholder='E-mail'
+          placeholder='GMAIL'
           style={styles.inputs}
           inputMode='text'
         />
         <TextInput 
-          placeholder='Mensagem de reclamação'
+          placeholder='RECLAME AQUI!'
           style={styles.inputs}
           inputMode='text'
         />

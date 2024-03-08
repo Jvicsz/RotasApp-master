@@ -20,7 +20,7 @@ export default function About() {
             />
 
             <View style={styles.descricao}>
-                <Text style={{textAlign: 'justify'}}> Bom Dia
+                <Text style={{textAlign: 'justify'}}> Bom Dia Amiguinhos
                 </Text>
             </View>
             
