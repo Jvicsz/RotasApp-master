@@ -1,6 +1,6 @@
 //Importações
 import { View, TextInput } from 'react-native';
-import styles from '../styles/styleSheet';
+import styles from '../styles/StyleSheet';
 
 export default function LoginInput() {
 

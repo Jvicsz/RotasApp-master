@@ -1,6 +1,6 @@
 //Importações Padrão
 import { View, ImageBackground, Text, Button } from "react-native";
-import { styles } from "../styles/styleSheet";
+import { styles } from "../styles/StyleSheet";
 //Importações React Navigation
 import { useNavigation } from "@react-navigation/native";
 
@@ -10,12 +10,12 @@ export default function Home() {
   return (
     //Imagem de fundo
     <ImageBackground
-      source={require("../styles/Fundo.jpg")}
+      source={require("../assets/images/fundo.jpg")}
       style={styles.fundo}
     >
 
       <View style={styles.container}>
-        <Text style={styles.hey}>Hey, this is the home page</Text>
+        <Text style={styles.hey}>Cachorro Feliz</Text>
       </View>
 
       <Button title="About" onPress={() => navigation.navigate("About")} color= 'black' />

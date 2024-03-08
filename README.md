@@ -1,5 +1,5 @@
 Integrantes do grupo:
-Ana Julia Ferreira - PO,
-Cauã Nogueira,
-Davi Toledo,
-Wellington Oliveira.
+Gabriel Donatti
+Giovanna Varjão
+Kamile Silva
+João Victor;

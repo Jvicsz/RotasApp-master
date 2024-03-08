@@ -1,6 +1,6 @@
 //Importações Padrão
 import { View } from "react-native";
-import styles from "../styles/styleSheet";
+import styles from "../styles/StyleSheet";
 //Importações de Components
 import LoginBack from "../components/LoginImageBackground";
 import { useNavigation } from "@react-navigation/native";

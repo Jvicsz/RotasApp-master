@@ -1,6 +1,6 @@
 //Importações Padrão
 import { View, TextInput } from "react-native";
-import { styles } from "../styles/styleSheet";
+import { styles } from "../styles/StyleSheet";
 //Importações React Navigation
 import { useNavigation } from "@react-navigation/native";
 

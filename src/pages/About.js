@@ -1,6 +1,6 @@
 //Importações Padrão
 import { View, Text, Image } from "react-native";
-import { styles } from "../styles/styleSheet";
+import { styles } from "../styles/StyleSheet";
 //Importações React Navigation
 import { useNavigation } from "@react-navigation/native";
 
@@ -14,13 +14,13 @@ export default function About() {
         <View style={styles.corpo}>
 
             <Image
-                source={require('../assets/images/palmeiras.png')}
+                source={require('../assets/images/cao.jpg')}
                 style={styles.obra}
                 resizeMode='cover'
             />
 
             <View style={styles.descricao}>
-                <Text style={{textAlign: 'justify'}}> Aqui é PALMEIRAS
+                <Text style={{textAlign: 'justify'}}> Bom Dia
                 </Text>
             </View>
             
