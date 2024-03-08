@@ -1,8 +1,10 @@
 //Importações
 import { View, Button } from 'react-native';
 import styles from '../styles/StyleSheet';
+import { useNavigation } from "@react-navigation/native";
 
 export default function LoginButton() {
+  const navigation = useNavigation();
 
   pressButton = () => {
     alert("Function not found:' (")
